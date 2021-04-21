@@ -1,3 +1,5 @@
+## NOT VERY CLEAR
+
 def type_check(correct_type):
     def check(old_function):
         def new_function(arg):
