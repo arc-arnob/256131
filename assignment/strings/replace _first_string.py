@@ -1,3 +1,4 @@
+# import pytest
 # Google --> Go$gle
 
 # aabbccddeeff --> a$b$c$d$e$f$
@@ -16,3 +17,8 @@ def replace_repeated(c):
 
 a = input("Enter string")
 print(replace_repeated(a))
+
+# Unit Testing
+
+def test_method():
+    assert replace_repeated("aabbccddee") == "a$b$c$d$e$"
