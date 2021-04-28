@@ -31,7 +31,7 @@ def count_substring(string, sub_string):
     hashPattern = Hash(sub_string, len(sub_string))
     hashPattern.update()
 
-    for i in range(len(string) - len(sub_string)+1):
+    for _ in range(len(string) - len(sub_string)+1):
         if hashtext.hash_value() == hashPattern.hash_value():
             #print("Here")
             if hashtext.text() == sub_string:
